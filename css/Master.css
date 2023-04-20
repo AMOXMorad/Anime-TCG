@@ -1,0 +1,16 @@
+
+body{
+    font-family: 'Cairo', sans-serif;
+}
+
+h2 {
+    color: rgb(247, 248, 248);
+    background-color: rgb(120, 194, 255);
+    border-style:solid;
+    border-radius: 2px;
+    border-color: rgb(111, 255, 238);
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+

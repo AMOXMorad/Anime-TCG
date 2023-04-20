@@ -1,0 +1,57 @@
+.brands_cards {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  perspective: 10000px;
+  border-radius: 10px;
+
+}
+
+.brands_cards .card {
+  width: 200px;
+  position: relative;
+  height: 300px;
+  transform-style: preserve-3d;
+  transition: transform 0.7s;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.brands_cards .card:hover {
+  transform: rotateY(180deg);
+}
+
+.brands_cards .card .front {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brands_cards .card .front img {
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.brands_cards .card .front,
+.brands_cards .card .back {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.brands_cards .card .back {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+
+.brands_cards .card .back img {
+  width: 100%;
+  border-radius: 10px;
+
+}
