@@ -1,2 +1,2 @@
 # Anime-TCG
-New Game Use Legend fire card pack made the rules by AMOX
+New Game Useing Legend fire card pack the rules made by AMOX
